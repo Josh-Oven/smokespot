@@ -5,7 +5,8 @@
   height: auto;
   // border: 1px solid yellow;
   overflow: hidden;
-  background: #F5F5F5;
+  background: #dcdcdc;
+  // background: gray;
 
   // header //
 
@@ -82,7 +83,7 @@
   ////////////
 
   .review-container {
-    width: 90%;
+    width: 100%;
     height: 40px;
     // border-bottom: .1px solid rgba(240,230,140, .3);
     // opacity: .3;
@@ -147,7 +148,7 @@
   ///////// carousel ////////
 
   .carousel-container {
-    width: 90%;
+    width: 100%;
     height: 500px;
     // border: 1px solid black;
     margin: auto;
@@ -159,6 +160,7 @@
     height: 100%;
     overflow: hidden;
     margin: auto;
+    // margin: 1px;
     // border: 3px solid blue;
   }
 
@@ -169,12 +171,27 @@
 
   //////////////////////
 
-  .seperator-block {
-    width: 100%;
+  .title-seperator-block {
+    width: 96%;
+    // padding-left: 10px;
+    // padding-right: 10px;
     height: 40px;
     margin: auto;
-    border-top: 2px solid #FAFAD2;
-    border-bottom: 2px solid #FAFAD2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    // box-shadow: 2px 2px 4px #FAFAD2;
+    background: white;
+    // border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .block-title {
+    font-family: 'Raleway';
+    font-size: 22px;
+    // font-weight: bold;
+    color: gray;
   }
 
   .skew-block {
@@ -191,10 +208,13 @@
   }
 
   .containing-block {
-    width: 100%;
+    margin: auto;
+    width: 96%;
     height: auto;
     padding-bottom: 15px;
     padding-top: 10px;
+    // padding: 5px;
+    background: #F5F5F5;
   }
 
   .merch-link {
@@ -211,28 +231,81 @@
   }
 
   .featured-bar {
-    width: 90%;
+    width: 100%;
     height: 400px;
     margin: auto;
-    border: 1px solid gold;
+    // border: 1px solid gold;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .featured-item {
+    width: 32.5%;
+    height: 100%;
+    // border: 1px solid black;
+    box-shadow: 2px 2px 4px #FAFAD2;
+    background: white;
+    border-radius: 2px;
+  }
+
+  .item-text-container {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    background: #ababab;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .item-text {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+
+  }
+
+  .item-picture:hover {
+    height: 105%;
+    width: 105%;
+  }
+
+  .item-picture-container {
+    width: 150px;
+    height: 150px;
+    padding: 2px 0 0 -2px;
+  }
+
+  .item-picture {
+    transition-duration: .2s;
+    width: 150px;
+    height: 150px;
+    margin: auto;
   }
 
   .vape-carousel {
-    width: 90%;
+    width: 100%;
     height: 128px;
     // border: 1px solid blue;
     margin: auto;
     display: flex;
-    // justify-content: space-around;
+    // justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    // padding: 5px 0 0 5px;
+    background: white;
   }
 
   .vape-carousel-img-container {
-    height: 100%;
-    width: 128px;
-
+    height: 123px;
+    width: 123px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
   }
 
   .vape-carousel-img {

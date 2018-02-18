@@ -3,7 +3,7 @@
   width: auto;
   height: auto;
   overflow: hidden;
-  background: #F5F5F5; }
+  background: #dcdcdc; }
   .outer-home-container .header {
     width: 100%;
     height: 55px;
@@ -48,7 +48,7 @@
     margin-left: 8px;
     margin-right: 8px; }
   .outer-home-container .review-container {
-    width: 90%;
+    width: 100%;
     height: 40px;
     margin: auto;
     margin-top: 10px;
@@ -84,7 +84,7 @@
     font-size: 15px;
     margin-right: 50px; }
   .outer-home-container .carousel-container {
-    width: 90%;
+    width: 100%;
     height: 500px;
     margin: auto; }
   .outer-home-container .carousel-item {
@@ -94,12 +94,20 @@
     margin: auto; }
   .outer-home-container .carousel-img {
     width: 100%; }
-  .outer-home-container .seperator-block {
-    width: 100%;
+  .outer-home-container .title-seperator-block {
+    width: 96%;
     height: 40px;
     margin: auto;
-    border-top: 2px solid #FAFAD2;
-    border-bottom: 2px solid #FAFAD2; }
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .outer-home-container .block-title {
+    font-family: 'Raleway';
+    font-size: 22px;
+    color: gray; }
   .outer-home-container .skew-block {
     width: 120%;
     height: 150px;
@@ -110,10 +118,12 @@
     margin-top: -70px;
     margin-bottom: -70px; }
   .outer-home-container .containing-block {
-    width: 100%;
+    margin: auto;
+    width: 96%;
     height: auto;
     padding-bottom: 15px;
-    padding-top: 10px; }
+    padding-top: 10px;
+    background: #F5F5F5; }
   .outer-home-container .merch-link {
     color: white;
     font-size: 28px;
@@ -125,21 +135,59 @@
     border-radius: 2px;
     background: black; }
   .outer-home-container .featured-bar {
-    width: 90%;
+    width: 100%;
     height: 400px;
     margin: auto;
-    border: 1px solid gold;
-    margin-bottom: 20px; }
-  .outer-home-container .vape-carousel {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .outer-home-container .featured-item {
+    width: 32.5%;
+    height: 100%;
+    box-shadow: 2px 2px 4px #FAFAD2;
+    background: white;
+    border-radius: 2px; }
+  .outer-home-container .item-text-container {
     width: 90%;
+    height: auto;
+    padding: 10px;
+    background: #ababab;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .outer-home-container .item-text {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px; }
+  .outer-home-container .item-picture:hover {
+    height: 105%;
+    width: 105%; }
+  .outer-home-container .item-picture-container {
+    width: 150px;
+    height: 150px;
+    padding: 2px 0 0 -2px; }
+  .outer-home-container .item-picture {
+    transition-duration: .2s;
+    width: 150px;
+    height: 150px;
+    margin: auto; }
+  .outer-home-container .vape-carousel {
+    width: 100%;
     height: 128px;
     margin: auto;
     display: flex;
     align-items: center;
-    overflow: hidden; }
+    overflow: hidden;
+    background: white; }
   .outer-home-container .vape-carousel-img-container {
-    height: 100%;
-    width: 128px; }
+    height: 123px;
+    width: 123px;
+    margin-left: 2.5px;
+    margin-right: 2.5px; }
   .outer-home-container .vape-carousel-img {
     width: 100%;
     height: 100%; }
