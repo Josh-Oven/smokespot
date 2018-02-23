@@ -98,7 +98,7 @@
     width: 96%;
     height: 40px;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     background: white;
     display: flex;
@@ -164,6 +164,7 @@
     font-family: 'Raleway';
     font-size: 16px; }
   .outer-home-container .item-picture:hover {
+    cursor: pointer;
     height: 105%;
     width: 105%; }
   .outer-home-container .item-picture-container {
@@ -191,6 +192,42 @@
   .outer-home-container .vape-carousel-img {
     width: 100%;
     height: 100%; }
+  .outer-home-container .img-link-block:hover {
+    width: 70%; }
+  .outer-home-container .img-link-block {
+    transition-duration: .7s;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .outer-home-container .img-link-block p {
+      font-size: 22px;
+      background: rgba(171, 171, 171, 0.7);
+      color: black;
+      font-family: 'Raleway';
+      padding: 0 5px 0 5px;
+      cursor: pointer; }
+  .outer-home-container .juice-img-link {
+    background: url("assets/images/juicecollection.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .outer-home-container .mod-img-link {
+    background: url("assets/images/modcollection.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .outer-home-container .battery-img-link {
+    background: url("assets/images/modrain.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 * {
   margin: 0;
