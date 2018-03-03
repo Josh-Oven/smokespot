@@ -1,3 +1,8 @@
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script src='../vanilla-js/flickity.js'></script> -->
+
 <div class='outer-home-container'>
 
   <div class='header'>
@@ -28,11 +33,11 @@
 
   <div class='containing-block'>
 
-    <div class='carousel-container'>
+    <div class='main-carousel'>
 
-      <div class='carousel-item'>
+      <div class='carousel-cell'>
 
-        <img class='carousel-img' src='../assets/images/asianvape.png'/>
+        <img src='../assets/images/asianvape.png'/>
 
       </div>
 
@@ -118,6 +123,12 @@
 
     </div>
 
+    <div class='img-link-block juice-img-link'>
+
+      <p>E-Juice</p>
+
+    </div>
+
     <div class='vape-carousel'>
 
       <div class='vape-carousel-img-container'>
@@ -182,11 +193,11 @@
 
     </div>
 
-    <div class='img-link-block juice-img-link'>
+    <!-- <div class='img-link-block juice-img-link'>
 
       <p>E-Juice</p>
 
-    </div>
+    </div> -->
 
   </div>
 
@@ -223,3 +234,18 @@
   </div>
 
 </div>
+
+<!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script> -->
+
+<script>
+
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+
+</script>
+
+<!-- <script src='../vanilla-js/flickity.js'></script> -->

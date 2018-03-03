@@ -320,11 +320,12 @@
   }
 
   .img-link-block {
-    transition-duration: .7s;
+    transition-duration: .6s;
     width: 60%;
-    height: 50px;
+    height: 40px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -348,7 +349,7 @@
   }
 
   .mod-img-link {
-    background: url('assets/images/modcollection.png');
+    background: url('assets/images/v.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -356,7 +357,7 @@
   }
 
   .battery-img-link {
-    background: url('assets/images/modrain.png');
+    background: url('assets/images/battery.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
